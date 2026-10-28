@@ -20,7 +20,7 @@ pygame.display.set_caption("Home Screen Example")
 screen.fill(GRAY)
 
 #fonts
-font = pygame.font.Font("Crimson Python\Pong game\PressStart2P-Regular.ttf", 30)
+font = pygame.font.Font("Pong game\PressStart2P-Regular.ttf", 30)
 title = font.render("PONG", True, PURPLE)
 menuText = font.render("CHOOSE YOUR OPPONENT", True, PURPLE)
 aiMenuText = font.render("CHOOSE YOUR DIFFICULTY", True, PURPLE)
